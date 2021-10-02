@@ -8,7 +8,6 @@ I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
 ```
 
-```
 GIVEN a weather dashboard with form inputs
 TODO:
 * Create a body with the 'row' and 'wrap' bootsrap class.
@@ -43,8 +42,7 @@ TODO:
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 TODO:
-*Use html dom and the setAttribute method to change the `href` of each search history `<button>` to its respective city.
-```
+* Use html dom and the setAttribute method to change the `href` of each search history `<button>` to its respective city.
 
 ## Resources:
 
