@@ -3,6 +3,7 @@ var userHistory = []
 var searchBtn = document.querySelector(".btn");
 var displayHistory = document.querySelector(".search-history")
 var customApi = ""
+var customForecast = ""
 var currentWeather = document.querySelector(".current-weather")
 var forecast = document.querySelector(".forecast")
 
@@ -24,12 +25,17 @@ function displayContent() {
 
         var currentTime = moment().format(" (M/DD/YYYY)");
         var currentCity = document.createElement("h2");
+        currentCity.setAttribute("class", "mb-5");
         currentCity.innerHTML = userHistory[i] + currentTime;
         currentWeather.append(currentCity);
 
         var newApi = "https://api.openweathermap.org/data/2.5/weather?q=" + userHistory[i] + "&appid=605deb5c1cc4ba7a3d01c08035503f22";
         console.log(newApi);
         customApi = newApi
+
+        var forecastApi = "https://api.openweathermap.org/data/2.5/forecast/daily?q=" + userHistory[i] + "&cnt=5&appid=605deb5c1cc4ba7a3d01c08035503f22";
+        console.log(forecastApi);
+        customForecast = forecastApi
 
         fetch(customApi)
             .then(function (response) {
@@ -53,6 +59,14 @@ function displayContent() {
                 var visEl = document.createElement("p");
                 visEl.innerHTML = "Visibility: " + currentVis
                 currentWeather.append(visEl);
+            });
+
+        fetch(customForecast)
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                console.log(data);
             });
 
     }
