@@ -10,13 +10,14 @@ SO THAT I can plan a trip accordingly
 
 <!-- GIVEN a weather dashboard with form inputs -->
 TODO:
-* Create a body with the 'row' and 'wrap' bootsrap class.
-* Create an `<aside>` container that is 100% the vh of the body and 3/12 columns wide on lg screens and 12/12 for smaller screens, contains a 'Search for City' `h2` elemnt, an input element, a `<button>` element that reads 'Search' and a `<hr>` element.
-* Create a `<main>` element that will contain the dynamically created content from the weather API that is 100% vh and 9/12 columns wide on lg screens and 12/12 for smaller screens
+* Create a body with the 'row' and 'wrap' bootsrap class. DONE.
+* Create a nav bar with a centered `<h1>` element using bootsrap. DONE.
+* Create an `<aside>` container that is 100% the vh of the body and 3/12 columns wide on lg screens and 12/12 for smaller screens, contains a 'Search for City' `h2` elemnt, an input element, a `<button>` element that reads 'Search' and a `<hr>` element. DONE.
+* Create a `<div>` element that will contain the dynamically created content from the weather API that is 100% vh and 9/12 columns wide on lg screens and 12/12 for smaller screens. DONE.
 <!-- WHEN I search for a city
 THEN I am presented with current and future conditions for that city and that city is added to the search history -->
 TODO:
-* Store the user input from search bar into a variable in js.
+* Store the user input from search bar into a variable in js. DONE.
 * Use the fetch method to parse information from the weather API.
 * Use a for loop to iterate through each city.
 * Use a conditional statement to check for if the user input matches one of the cities in API.
@@ -49,6 +50,7 @@ TODO:
 * [OpenWeather One Call API](https://openweathermap.org/api/one-call-api)
 * [Full-Stack Blog on how to use API keys](https://coding-boot-camp.github.io/full-stack/apis/how-to-use-api-keys).
 * [Moment JS Display](https://momentjs.com/docs/#/displaying/)
+* [Example of finished product](./assets/06-server-side-apis-homework-demo.png)
 
 
 ## Links:
