@@ -19,7 +19,7 @@ THEN I am presented with current and future conditions for that city and that ci
 TODO:
 * Store the user input from search bar into a variable in js. DONE.
 * Use the fetch method to parse information from the weather API. DONE.
-* In the `<main>` tag, add a 'column' class and two divs stacked on top of each other. Give the top div a class with a border
+* In the `<div>` tag for the main content, add a 'column' class and two divs stacked on top of each other. Give the top div a class with a border. DONE.
 * Use localStorage and the get/setItems method to store the searches in local storage (Week 2, Unit 4, Activity 25). DONE.
 * Display below the search area using a variable that stores an array of the local storage history, the push method to add new searches into an array to avoid clearing other searches, and html dom to put on page as `<button>` tags. DONE.
 <!-- WHEN I view current weather conditions for that city
