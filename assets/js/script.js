@@ -9,6 +9,11 @@ var forecast = document.querySelector(".forecast")
 
 function handlingBtn() {
     var newSearch = document.querySelector(".user-search").value;
+    
+    if (newSearch == "" || userHistory.includes(newSearch)) {
+        return
+    }
+    else;
     userHistory.push(newSearch)
     localStorage.setItem("user-history", userHistory)
     console.log(userHistory);
@@ -64,18 +69,6 @@ function displayContent() {
                 visEl.innerHTML = "Visibility: " + currentVis + "%";
                 currentWeather.append(visEl);
             });
-
-        // var forecastApi = "https://api.openweathermap.org/data/2.5/forecast/daily?q=" + userHistory[i] + "&cnt=5&appid=605deb5c1cc4ba7a3d01c08035503f22";
-        // console.log(forecastApi);
-        // customForecast = forecastApi
-
-        // fetch(customForecast)
-        //     .then(function (response) {
-        //         return response.json();
-        //     })
-        //     .then(function (data) {
-        //         console.log(data);
-        //     });
     }
 }
 
