@@ -1,0 +1,43 @@
+.header {
+  background: rgb(59, 54, 164);
+  background: linear-gradient(to right, rgb(103, 98, 203), rgb(203, 144, 98));
+}
+
+button {
+  background-color: rgb(65, 65, 101) !important;
+  border: none !important;
+}
+
+button:hover {
+  background-color: rgb(203, 144, 98) !important;
+}
+
+#currentUv {
+  padding: 5px;
+}
+
+#currentCity {
+  line-height: 2.5;
+}
+
+.low {
+  background: green;
+  color: white;
+}
+
+.med {
+  background: yellow;
+  color: white;
+}
+
+.high {
+  background: red;
+  color: white;
+}
+
+.fiv-day {
+  background:rgb(65, 65, 101);
+  color: white;
+  line-height: 2.5;
+  margin-top: 10px;
+}
