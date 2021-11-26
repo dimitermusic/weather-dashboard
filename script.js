@@ -151,11 +151,9 @@ clearHistoryBtnEl.on('click', function () {
 // Listen for click on dynamically created history button
 searchHistoryButtonsEl.on('click', '.hisBtn', function () {
   cityName = $(this).html();
-  // rePosition();
   clearFiveDay();
   verifyCityNameExists();
 });
 
-//gets the history on page load
-
+// Get history on page load
 getHistory();
