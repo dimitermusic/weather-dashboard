@@ -1,14 +1,10 @@
-
-
 # Weather Dashboard
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
->
-> Weather app utilizing Bootstrap, Javascript, CSS, HTML the Open Weather Map API.
->
+Weather app utilizing Bootstrap, Javascript, CSS, HTML the Open Weather Map API.
 
 ## Table of Contents
 - [Weather Dashboard](#weather-dashboard)
@@ -24,44 +20,40 @@
 
 ### Installation
 
->
-> Visit the deployed site [here!](https://dimitermusic.github.io/weather-dashboard.html/)
->
+Visit the deployed site [here!](https://dimitermusic.github.io/weather-dashboard.html/)
 
 ### Usage
-Screenshots will go here.
+
+Search for a city   
+![Page Load](./assets/screenshots/ss1.png)
+Current weather and five day forecast come up  
+![City Search](./assets/screenshots/ss2.png)  
+UV Index changes color depending on number  
+![UV Index](./assets/screenshots/ss3.png)  
+Click on button in search history to see weather info for that city  
+![History](./assets/screenshots/ss4.png)  
+Clear search history  
+![Clear History](./assets/screenshots/ss5.png)  
 
 ### License
 
->
-> This project is using the MIT license.
->
+This project is using the MIT license.
 
 ### Contributing
 
->
-> All contributions and feedback welcome!
->
+All contributions and feedback welcome!
 
 ### Test Instructions
 
->
-> No tests at this time.
-
+No tests at this time.
 
 ### Links
 
->
-> [Deployed Site](https://dimitermusic.github.io/weather-dashboard.html/)
->
-> [Github](https://github.com/dimitermusic/weather-dashboard.html/)
->
+[Deployed Site](https://dimitermusic.github.io/weather-dashboard.html/)  
+[Github](https://github.com/dimitermusic/weather-dashboard.html/)  
 
 ### Questions
 
->
->[Github](https://www.github.com/dimitermusic)
->
->[Email](mailto:dimitermusic@gmail.com)
->
+[Github](https://www.github.com/dimitermusic)  
+[Email](mailto:dimitermusic@gmail.com)  
 
