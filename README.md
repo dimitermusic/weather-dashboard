@@ -20,7 +20,7 @@ Weather app utilizing Bootstrap, Javascript, CSS, HTML the Open Weather Map API.
 
 ### Installation
 
-Visit the deployed site [here!](https://dimitermusic.github.io/weather-dashboard.html/)
+Visit the deployed site [here!](https://dimitermusic.github.io/weather-dashboard)
 
 ### Usage
 
@@ -49,8 +49,8 @@ No tests at this time.
 
 ### Links
 
-[Deployed Site](https://dimitermusic.github.io/weather-dashboard.html/)  
-[Github](https://github.com/dimitermusic/weather-dashboard.html/)  
+[Deployed Site](https://dimitermusic.github.io/weather-dashboard)  
+[Github](https://github.com/dimitermusic/weather-dashboard)  
 
 ### Questions
 
